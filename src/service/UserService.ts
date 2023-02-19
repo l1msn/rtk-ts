@@ -13,7 +13,9 @@ const userAPI = createApi({
                 url: '/users',
                 params: {
                     _limit: limit
-                }
+                },
+                timeout: 1000,
+                method: 'GET'
             })
         })
     })

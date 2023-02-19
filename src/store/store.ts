@@ -16,12 +16,12 @@ function setupStore() {
         //RTK new api middlewares
         middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(postAPI.middleware)
     })
-}
+};
 
-type RootState = ReturnType<typeof rootReducer>
-type AppStore = ReturnType<typeof setupStore>
-type AppDispatch = AppStore['dispatch']
+type RootState = ReturnType<typeof rootReducer>;
+type AppStore = ReturnType<typeof setupStore>;
+type AppDispatch = AppStore['dispatch'];
 
 export default setupStore;
-export type {RootState, AppStore, AppDispatch}
+export type {RootState, AppStore, AppDispatch};
 

@@ -20,7 +20,7 @@ const fetchUsers = createAsyncThunk('user/fetchAll', async (_, thunkAPI) => {
             params: {
                 _limit: 5
             }});
-        return response.data
+        return thunkAPI.fulfillWithValue(response.data)
     } catch (error: unknown | any) {
         return thunkAPI.rejectWithValue(error.message)
     }

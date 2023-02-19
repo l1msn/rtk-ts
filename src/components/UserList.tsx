@@ -24,7 +24,7 @@ const UserList: React.FC = () => {
         <div className="App">
             { isLoading && <div>is loading...</div> }
             { error && <div>{error}</div>}
-            {users && users.map((user: IUser) => {
+            { users && users.map((user: IUser) => {
                 return <div className="user" key={user.id}> {user.id}, {user.name} </div>
             })}
         </div>

@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 5,
+      "title": "sdfds",
+      "body": "typicode"
+    },
+    {
+      "id": 6,
+      "title": "json-server 6",
+      "body": "typicode"
+    },
+    {
+      "id": 7,
+      "title": "json-server 7",
+      "body": "typicode"
+    },
+    {
+      "title": "123",
+      "body": "123",
+      "id": 8
+    },
+    {
+      "title": "dfg",
+      "body": "dfg",
+      "id": 9
+    },
+    {
+      "title": "sdff",
+      "body": "sdff",
+      "id": 10
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
